@@ -22,7 +22,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/DilapidatedSage/Helio
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))();
-local Window = Library.CreateLib("TheFartMan GUI - Age Of Heros", "BloodTheme");
+local Window = Library.CreateLib("TheFartMan GUI - Age Of Heros", "Ocean");
 local Tab = Window:NewTab("AutoFarm Menu");
 local MainSection = Tab:NewSection("AutoFarm Menu");
 local TargetTab = Window:NewTab("Player Menu");
